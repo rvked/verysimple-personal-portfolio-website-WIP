@@ -1,0 +1,148 @@
+body, h1, h2, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00091A;
+  font-family:'Verdana',sans-serif;
+}
+
+/* navigation styling */
+#navbar {
+  background-color: #DE970B;
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul {
+  align-items: center;
+  list-style: none;
+  display: flex;;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color:black; 
+  font-weight: bold;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 50px;
+  color: #CCAA00; 
+}
+
+#welcome-section p {
+  color: #6AFF4D;
+  padding: 8px;
+  font-size: 25px;
+  word-spacing: 1px;
+}
+
+#projects {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsla(0, 60%, 54%, 0.552);
+}
+.project-heading {
+   padding: 20px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   text-align:center;
+   color: #6AFF4D;
+   text-shadow: 2px 2px 2px hsla(292, 58%, 76%, 0.907);
+  -moz-transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg)
+  
+}
+
+.project-tile a {
+  height:auto;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.img-proj1 {
+  display: flex;
+  height: 500px;
+  width: -700px;
+  margin-bottom: 10px;
+}
+
+#Contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;;
+  background-color: #413f3f;
+  padding: 20px;
+}
+
+.socials-proj{
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.social-links {
+  margin-top: 500px;
+  word-spacing: 50px;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.fa-brands.fa-github.fa-4x {
+  color: #4183C4; 
+}
+
+.fa-brands.fa-youtube.fa-4x {
+  color: #FF0000; 
+}
+
+.fa-brands.fa-square-x-twitter.fa-4x {
+  color: #1DA1F2;
+}
+
+.fa-brands.fa-instagram.fa-4x {
+  color: #E4405F; 
+}
+
+@media only screen and (max-width: 780px) {
+  img {
+    width: 400px;
+    height: 100px;
+  }
+}
